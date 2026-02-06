@@ -18,9 +18,6 @@ venv/
 .langgraph_api/
 *.pckl
 
-# QA outputs
-qa_workspace/
-
 # Node / frontend
 node_modules/
 dist/
