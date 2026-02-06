@@ -1,0 +1,37 @@
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.python-version
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# LangGraph / agent runtime artifacts
+.langgraph_api/
+*.pckl
+
+# QA outputs
+qa_workspace/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

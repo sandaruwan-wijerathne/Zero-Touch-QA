@@ -1,0 +1,7 @@
+{
+  "graphs": {
+    "qa_workflow": "./qa_agent/orchestrator.py:graph"
+  },
+  "dependencies": ["."],
+  "env": ".env"
+}
