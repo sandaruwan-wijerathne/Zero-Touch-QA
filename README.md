@@ -39,6 +39,24 @@ Zero-Touch QA automates the entire QA workflow:
 
 ---
 
+## Requirements
+
+### Runtime & tools
+- **Python 3.13+**
+- **UV** – Python package manager ([install](https://docs.astral.sh/uv/getting-started/installation/))
+- **Node.js & npx** – Required. The QA agent launches the Playwright MCP server via `npx @playwright/mcp@latest` for browser automation. Also needed to run the bundled test app (`test_application/react-vet-clinic-dashboard`) if you use it.
+- **Playwright browser binaries** – Required for MCP browser tools. After Node is installed, run:
+  ```bash
+  npx playwright install
+  ```
+
+### API keys & services
+- **OpenAI API key** (required) – For GPT-4o; get one at [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+- **LangSmith API key** (optional) – Only for `langgraph dev`; get one at [smith.langchain.com](https://smith.langchain.com/settings)
+- **Wrike** (optional) – For posting QA reports to Wrike tasks; configure in `.env` when needed
+
+---
+
 ## Setup
 
 ### 1. Install dependencies
