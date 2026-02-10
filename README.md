@@ -106,7 +106,7 @@ Run the complete end-to-end workflow:
 cd test_application/react-vet-clinic-dashboard
 npm install && npm run dev
 
-# 2. Run the workflow
+# 2. In another terminal, go back to the project root (Zero-Touch-QA folder), then run:
 uv run run_qa_workflow.py
 ```
 
